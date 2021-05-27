@@ -1,0 +1,65 @@
+body{
+    background-color: skyblue;
+}
+#navbar{
+   flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1.1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#home{
+   height: 480px;
+   padding: 3px 28px;
+}
+
+#home::before{
+    height: 580px;
+ }
+
+#home p{
+    font-size: 13px;
+} 
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px ;
+    
+}
+
+#websites{
+    flex-wrap: wrap;
+}
+
+#websites img{
+    
+    width: 86px;
+    padding: 6px;
+    height: auto;
+    
+}
+
+#contact-box form{
+    width: 75%;
+}
+
+.h-primary{
+    font-size: 26px;
+}
+
+.h-secondary{
+    font-size: 23px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px ;
+}
